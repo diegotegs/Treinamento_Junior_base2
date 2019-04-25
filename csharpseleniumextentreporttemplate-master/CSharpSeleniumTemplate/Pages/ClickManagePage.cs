@@ -14,7 +14,7 @@ namespace CSharpSeleniumTemplate.Pages
         #region Mapping
         By msgLogin = By.XPath("//div[@id='general-home']/div/h2");
         By manageProject = By.LinkText("Gerencie seus projetos aqui");
-       public By selectProject = By.Id("selected_project");
+        By selectProject = By.Id("selected_project");
         #endregion
 
         #region Actions

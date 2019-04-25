@@ -145,18 +145,6 @@ namespace CSharpSeleniumTemplate.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\jose.mario\\Desktop\\Reports\\Outros\\")]
-        public string REPORT_PATH {
-            get {
-                return ((string)(this["REPORT_PATH"]));
-            }
-            set {
-                this["REPORT_PATH"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("CSharpSeleniumTemplateReport")]
         public string REPORT_NAME {
             get {
@@ -200,6 +188,18 @@ namespace CSharpSeleniumTemplate.Properties {
             }
             set {
                 this["DEFAUL_PASSWORD"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Relatorio\\")]
+        public string REPORT_PATH {
+            get {
+                return ((string)(this["REPORT_PATH"]));
+            }
+            set {
+                this["REPORT_PATH"] = value;
             }
         }
     }

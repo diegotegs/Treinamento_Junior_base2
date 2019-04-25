@@ -22,6 +22,7 @@ namespace CSharpSeleniumTemplate.Tests
         [AutoInstance] SelectProjectPage selectProjectPage;
         #endregion
 
+        #region Actions
         [Test]
         public void SelecionarProjeto()
         {
@@ -40,5 +41,6 @@ namespace CSharpSeleniumTemplate.Tests
 
 
         }
+        #endregion
     }
 }

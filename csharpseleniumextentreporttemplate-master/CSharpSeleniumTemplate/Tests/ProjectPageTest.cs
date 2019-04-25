@@ -14,7 +14,6 @@ namespace CSharpSeleniumTemplate.Tests
         [AutoInstance] LoginFlows loginFlows;
         [AutoInstance] ClickManageFlows clickManageFlows;
         [AutoInstance] ProjectPage projectPage;
-
         #endregion
 
         #region Actions

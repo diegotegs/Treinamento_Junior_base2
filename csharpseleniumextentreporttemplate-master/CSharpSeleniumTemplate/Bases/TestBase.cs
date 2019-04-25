@@ -21,7 +21,7 @@ namespace CSharpSeleniumTemplate.Bases
         [SetUp]
         public void SetUp()
         {
-            ExtentReportHelpers.AddTest();
+           ExtentReportHelpers.AddTest();
             DriverFactory.CreateInstance();
             DriverFactory.INSTANCE.Manage().Window.Maximize();
             DriverFactory.INSTANCE.Navigate().GoToUrl(Properties.Settings.Default.DEFAUL_APPLICATION_URL);

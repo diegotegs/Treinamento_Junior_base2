@@ -4,13 +4,7 @@ using CSharpSeleniumTemplate.Flows;
 using CSharpSeleniumTemplate.Helpers;
 using CSharpSeleniumTemplate.Pages;
 using NUnit.Framework;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+
 
 namespace CSharpSeleniumTemplate.Tests
 {
@@ -29,13 +23,15 @@ namespace CSharpSeleniumTemplate.Tests
         {
             #region Parameters
             string usuario = Properties.Settings.Default.DEFAUL_USER;
-            string senha = Properties.Settings.Default.DEFAUL_PASSWORD;
+            string senha = Properties.Settings.Default.DEFAUL_PASSWORD;         
             #endregion
 
             loginFlows.EfetuarLogin(usuario, senha);
             Assert.That(loginPage.MensagemSucessoLogin());
            
         }
+
+     
         #endregion
     }
 }

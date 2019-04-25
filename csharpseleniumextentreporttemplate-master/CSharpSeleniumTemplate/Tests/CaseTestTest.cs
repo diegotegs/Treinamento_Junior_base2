@@ -28,9 +28,13 @@ namespace CSharpSeleniumTemplate.Tests
             #endregion
 
             loginFlows.EfetuarLogin(usuario,senha);
+
             clickManageFlows.ClicarGerenciar();
+
             projectPageFlows.ClicarMenuProjeto();
+
             selectProjectFlows.ClicarProjeto();
+
             casoTestPage.ClicarCasoDeTeste();     
             
             Assert.AreNotEqual("Nenhum caso de teste encontrado",casoTestPage.ValidarExisteCasoDeTest());

@@ -32,9 +32,6 @@
     <Setting Name="DB_CONNECTION_TIMEOUT" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="REPORT_PATH" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Users\jose.mario\Desktop\Reports\Outros\</Value>
-    </Setting>
     <Setting Name="REPORT_NAME" Type="System.String" Scope="User">
       <Value Profile="(Default)">CSharpSeleniumTemplateReport</Value>
     </Setting>
@@ -46,6 +43,9 @@
     </Setting>
     <Setting Name="DEFAUL_PASSWORD" Type="System.String" Scope="User">
       <Value Profile="(Default)">123456</Value>
+    </Setting>
+    <Setting Name="REPORT_PATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Relatorio\</Value>
     </Setting>
   </Settings>
 </SettingsFile>

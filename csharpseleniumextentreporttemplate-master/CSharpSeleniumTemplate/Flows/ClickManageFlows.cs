@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharpSeleniumTemplate.Flows
 {
-   public class ClickManageFlows
+   public class  ClickManageFlows
     {
         #region Page Object and Constructor
         ClickManagePage clickManagePage;
