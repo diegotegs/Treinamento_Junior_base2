@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSeleniumTemplateDiegoMarinho", "CSharpSeleniumTemplate\CSharpSeleniumTemplateDiegoMarinho.csproj", "{4C047882-C3B5-4455-8DD6-C7FAECBF7F47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoMarinho_Base2", "CSharpSeleniumTemplate\DiegoMarinho_Base2.csproj", "{4C047882-C3B5-4455-8DD6-C7FAECBF7F47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
