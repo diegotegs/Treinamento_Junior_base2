@@ -1,0 +1,51 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CSharpSeleniumTemplate.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BROWSER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">chrome</Value>
+    </Setting>
+    <Setting Name="EXECUTION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">local</Value>
+    </Setting>
+    <Setting Name="SELENIUM_HUB" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DEFAULT_TIMEOUT_IN_SECONDS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="DB_URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_PORT" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DB_CONNECTION_TIMEOUT" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="REPORT_PATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\jose.mario\Desktop\Reports\Outros\</Value>
+    </Setting>
+    <Setting Name="REPORT_NAME" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CSharpSeleniumTemplateReport</Value>
+    </Setting>
+    <Setting Name="DEFAUL_APPLICATION_URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://blackmirror.crowdtest.me/users/sign_in</Value>
+    </Setting>
+    <Setting Name="DEFAUL_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">diego.marinho@base2.com.br</Value>
+    </Setting>
+    <Setting Name="DEFAUL_PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123456</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
